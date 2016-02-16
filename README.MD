@@ -16,7 +16,7 @@ trait Foo extends StaticAnnotation {
 }
 ```
 
-### C#
+### C\#
 ```csharp
 interface Foo {
 
