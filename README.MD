@@ -39,7 +39,7 @@ public class Blah {
     public void doStuff() {}
 }
 ```
-### C\#
+### C\#  
 ```csharp  
 [Foo]
 public class Blah {
