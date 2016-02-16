@@ -5,21 +5,18 @@
 ### Scala
 ```scala
 trait Foo extends StaticAnnotation {
-
 }
 ```
 
 ### Java
 ```java
 @interface Foo {
-
 }
 ```
 
-### C\#
+### C\#  
 ```csharp
 interface Foo {
-
 }
 ```
     
