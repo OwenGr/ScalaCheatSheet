@@ -16,7 +16,34 @@ trait Foo extends StaticAnnotation {
 
 ### C\#  
 ```csharp
-interface Foo {
+class Foo : System.Attribute {
+       
 }
 ```
     
+## Annotation Use
+
+### Scala
+```scala
+@Foo
+class Blah {
+    @Stuff
+    def doStuff(): Unit = ()
+}
+```
+### Java
+```java
+@Foo
+public class Blah {
+    @Stuff
+    public void doStuff() {}
+}
+```
+### C\#
+```csharp  
+[Foo]
+public class Blah {
+    [Stuff]
+    public void doStuff() {}
+}
+```
